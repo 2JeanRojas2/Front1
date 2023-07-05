@@ -1,0 +1,20 @@
+header
+    margin-bottom: 2em
+    nav
+        ul
+            display: flex
+            list-style: None
+            a
+                padding: 1.5rem
+                /** color: #fff **/
+                /** background: $color-primary **/
+                @include theme($color-primary, $color-sombra-off, $color-background)
+                text-decoration: none
+                margin-right: 1.5em
+                &:hover
+                    background: $color-secondary
+                
+                
+                +my_border-radius(5%)
+                transition: color 1s ease
+                &:hover

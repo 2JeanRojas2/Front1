@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    background-color: #E6E6E6;
+}
+h1 { 
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
+h2{
+    width: 1041px;
+    height: 30px;
+    left: 213px;
+    top: 365px;
+    background-color:#C4C4C4;
+    color: #005677;
+}
+section{
+    max-width: 80%;     
+    margin: 0 auto;
+}
+span{ 
+    font-weight: bold;
+}
+p { background-color:#005677;
+    color: #ffffff;
+    text-align: center;
+}
+.margenDerecho {
+    margin-left: 75px; 
+    font-weight: normal;
+}
+    

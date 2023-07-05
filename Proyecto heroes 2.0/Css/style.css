@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+}
+h1, .menu, footer, .titulo {
+    color: white;
+}
+.titulo {
+    background-color: #1cd1b0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 4px;
+}
+h1 {
+    background: #00669f;
+    position: sticky;
+    top: 0;
+    text-transform: uppercase;
+    line-height: 100px;
+    text-align: center;
+    font-size: 47px;
+    z-index: 10;
+}
+main{
+    background-image: url(../Img/liga\ de\ la\ justicia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+    background-color: #001d2d;
+    height: 40px;
+    padding: 10px 20px;
+    z-index: 10;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    justify-content: flex-end;
+}
+.menu ul li {
+    padding-left:20px;
+}
+body main {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px;
+}
+main.Tarjetas section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    margin: 30px;
+    width: 300px;
+    height: 500px;
+}
+
+.caja-1, .caja-2, .caja-3{
+    position: relative;
+    border-radius: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.fondoVerde, .fondoSuperman{
+    width: 300px;
+    height: 193px;
+    border-radius: 10px 10px 0 0 ;
+}
+.linternaV, .superman, .Batman{
+    position: relative;
+    width:120px;
+    height:120px;
+    border-radius: 60px;
+    bottom: 60px;
+    left: 90px;
+}
+.Corazon {
+    position: absolute;
+    left: 21px;
+    top: 16px;
+}
+.relleno {
+    text-align: center;
+    padding: 20px;
+}
+main section .verMas {
+    color: white;
+    background-color: #00669f;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 13px;
+    text-decoration: none;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+}
+main section div {
+    height: 260px;
+}
+footer {
+    background: #00669f;
+    height: 70px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+/* Login */
+.registro{
+    justify-content: center;
+}
+h3 {
+    font-size: 4.5rem;
+}
+form {
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 620px;
+}
+form input {
+    height: 60px;
+    margin-top: 20px;
+}
+form .BotonEntrar {
+    background-color: rgb(50, 190, 224);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border-color: transparent;
+}
+header main section p {
+    text-align: center;
+}
+/* Login */
+
+/* Registro */
+select {
+    height: 60px;
+    margin-top: 20px;
+}
+.BotonesR {
+    justify-content: space-around;
+    margin-top: 30px;
+    display: flex;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.Enviar {
+    width: 250px;
+    background-color: rgb(50, 190, 224);
+    border-radius: 20px;
+    border-color: transparent;
+}
+.Reset {
+    width: 250px;
+    background-color: gray;
+    border-radius: 20px;
+    border-color: transparent;
+}
+/* Registro */
+/* Contacto */
+form .Texto {
+    height: 300px;
+}
+/*Contacto*/
+footer {
+    background: #00669f;
+    height: 70px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+/* Harley */
+.tituloHarley {
+    background-color: #1cd1b0;
+    color: rgb(184, 41, 176);
+    padding: 4px 60px 4px 90px;
+    font-weight: bold;
+    font-size: 30px;
+}
+body.fondoRosa {
+    background-image: url(../Img/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.caja,
+.imagenesHQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: white;
+    font-size: 18px;
+    margin: 100px;
+    border-radius: 30px;
+}
